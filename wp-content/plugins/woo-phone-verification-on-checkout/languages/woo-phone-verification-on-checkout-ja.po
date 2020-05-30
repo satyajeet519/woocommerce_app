@@ -1,0 +1,305 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-03 12:22+0900\n"
+"PO-Revision-Date: 2018-07-05 16:02+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: rc2c_admin.php:17
+msgid " Options"
+msgstr " オプション"
+
+#: rc2c_admin.php:28
+msgid "RingCaptcha Settings"
+msgstr "RingCaptcha 設定"
+
+#: rc2c_admin.php:37
+msgid "App key"
+msgstr "App key"
+
+#: rc2c_admin.php:43
+msgid "Secret key"
+msgstr "Secret key"
+
+#: rc2c_admin.php:92
+msgid "Pending"
+msgstr "支払い待ち"
+
+#: rc2c_admin.php:98
+msgid "On-Hold"
+msgstr "保留中"
+
+#: rc2c_admin.php:104
+msgid "Processing"
+msgstr "処理中"
+
+#: rc2c_admin.php:110
+msgid "Completed"
+msgstr "完了"
+
+#: rc2c_admin.php:116
+msgid "Cancelled"
+msgstr "キャンセル"
+
+#: rc2c_admin.php:122
+msgid "Refunded"
+msgstr "払い戻し"
+
+#: rc2c_admin.php:128
+msgid "Failed"
+msgstr "失敗"
+
+#: rc2c_admin.php:133
+msgid "Message Variables"
+msgstr "メッセージ変数"
+
+#: rc2c_admin.php:148
+msgid "Pending SMS Message"
+msgstr "支払い待ちSMSメッセージ"
+
+#: rc2c_admin.php:153
+msgid "On-Hold SMS Message"
+msgstr "保留中SMSメッセージ"
+
+#: rc2c_admin.php:163
+msgid "Completed SMS Message"
+msgstr "完了SMSメッセージ"
+
+#: rc2c_admin.php:168
+msgid "Cancelled SMS Message"
+msgstr "キャンセルSMSメッセージ"
+
+#: rc2c_admin.php:173
+msgid "Refunded SMS Message"
+msgstr "払い戻しSMSメッセージ"
+
+#: rc2c_admin.php:178
+msgid "Failed SMS Message"
+msgstr "失敗SMSメッセージ"
+
+#: rc2c_admin.php:213
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: rc2c_admin.php:235
+msgid "Mobile Number"
+msgstr "宛先携帯電話番号"
+
+#: rc2c_admin.php:252
+msgid "Send"
+msgstr "送信"
+
+#: rc2c_admin.php:24
+msgid "Enable RingCaptcha2wooCommerce"
+msgstr "RingCaptcha2wooCommerceを有効化する"
+
+#: rc2c_admin.php:32
+msgid ""
+"To get your App Key and Secret Key click <a href=\"https://my.ringcaptcha."
+"com/register\" target=\"_blank\">Here</a>"
+msgstr ""
+"自分の「App Key」と「Secret Key」を手に入れるために、<a href=\"https://my."
+"ringcaptcha.com/register\" target=\"_blank\">こちらをクリック</a>"
+
+#: rc2c_admin.php:50
+msgid "Admin SMS Order Notifications"
+msgstr "管理者発注SMS通知"
+
+#: rc2c_admin.php:52
+msgid ""
+"*Note: Please contact us at <a href=\"mailto:accounts@ringcaptcha.com?"
+"subject=Request%20for%20SMS%20Activation&body=Hi%20Ringcaptcha,%20we%20are"
+"%20requesting%20to%20activate%20the%20SMS%20notification%20from%20WooCommerce"
+"%20Phone%20Verification%20by%20RingCaptcha\">accounts@ringcaptcha.com</a> if "
+"you want to use SMS notifications. <br/>&emsp;&emsp;&emsp;&nbsp;You could "
+"also reach us through our Intercom (the chat pop-up) <a href=\"https://"
+"ringcaptcha.com\" target=\"_blank\">here.</a>"
+msgstr ""
+"*注意: SMS通知をご利用希望の際は<a href=\"mailto:accounts@ringcaptcha.com/ja?"
+"subject=Request%20for%20SMS%20Activation&body=Hi%20Ringcaptcha,%20we%20are"
+"%20requesting%20to%20activate%20the%20SMS%20notification%20from%20WooCommerce"
+"%20Phone%20Verification%20by%20RingCaptcha\">accounts@ringcaptcha.com</a> こ"
+"ちらへご連絡をお願い致します。 <br/>&emsp;&emsp;&nbsp;または、弊社webからイン"
+"ターコムを通してご連絡をお願い致します。<a href=\"https://ringcaptcha.com/ja"
+"\" target=\"_blank\">インターコムはこちらです</a>。"
+
+#: rc2c_admin.php:58 rc2c_admin.php:82
+msgid "Enable SMS notifications"
+msgstr "SMS通知を有効化"
+
+#: rc2c_admin.php:63
+msgid "Admin Mobile Number"
+msgstr "管理者携帯電話番号"
+
+#: rc2c_admin.php:65 rc2c_admin.php:239
+msgid "+18558233280"
+msgstr "+18558233280"
+
+#: rc2c_admin.php:68 rc2c_admin.php:242
+msgid "SMS Message"
+msgstr "SMSメッセージ"
+
+#: rc2c_admin.php:70
+msgid ""
+"Hi {shop_name}, you have a new order ({order_id}) with total amount of "
+"${order_amount}."
+msgstr ""
+"*見本:  {shop_name}, 新しい発注 ({order_id})が入りました。 合計金額 &yen;"
+"{order_amount}"
+
+#: rc2c_admin.php:75
+msgid "Customer SMS Order Notifications"
+msgstr "顧客SMS発注通知"
+
+#: rc2c_admin.php:87
+msgid "Enable which order statuses you want your customers to be notified"
+msgstr "どのステータスを通知しますか？"
+
+#: rc2c_admin.php:137
+msgid ""
+"<ul>\n"
+"          <li><code>{name}</code> &ndash; Customer first name</li>\n"
+"          <li><code>{shop_name}</code> &ndash; Your shop name</li>\n"
+"          <li><code>{order_id}</code> &ndash; Order ID</li>\n"
+"          <li><code>{order_amount}</code> &ndash; The total amount of the "
+"order</li>\n"
+"    </ul>"
+msgstr ""
+"<ul>\n"
+"          <li><code>{name}</code> &ndash; 顧客名</li>\n"
+"          <li><code>{shop_name}</code> &ndash; ショップ名</li>\n"
+"          <li><code>{order_id}</code> &ndash; 発注ID</li>\n"
+"          <li><code>{order_amount}</code> &ndash; 発注の合計</li>\n"
+"    </ul>"
+
+#: rc2c_admin.php:150
+msgid "Hi {name}, your order ({order_id}) is now Pending."
+msgstr ""
+"*見本: こんにちは {name}, あなたの注文 ({order_id}) は、支払い待ちです。"
+
+#: rc2c_admin.php:155
+msgid "Hi {name}, your order ({order_id}) is now On-Hold."
+msgstr "*見本: こんにちは {name}, あなたの注文 ({order_id}) は、保留中です。"
+
+#: rc2c_admin.php:160
+msgid "Hi {name}, your order ({order_id}) is now Processing."
+msgstr "*見本: こんにちは {name}, あなたの注文 ({order_id}) は、処理中です。"
+
+#: rc2c_admin.php:165
+msgid "Hi {name}, your order ({order_id}) is now Completed."
+msgstr "*見本: こんにちは {name}, あなたの注文 ({order_id}) は、完了しました。"
+
+#: rc2c_admin.php:170
+msgid "Hi {name}, your order ({order_id}) is now Cancelled."
+msgstr ""
+"*見本: こんにちは {name}, あなたの注文 ({order_id}) は、キャンセルされまし"
+"た。"
+
+#: rc2c_admin.php:175
+msgid "Hi {name}, your order ({order_id}) is now Refunded."
+msgstr ""
+"*見本: こんにちは {name}, あなたの注文 ({order_id}) は、払い戻しました。"
+
+#: rc2c_admin.php:180
+msgid "Hi {name}, your order ({order_id}) is now Failed."
+msgstr "*見本: こんにちは {name}, あなたの注文 ({order_id}) は、失敗しました。"
+
+#: rc2c_admin.php:158
+msgid "Processing SMS Message"
+msgstr "処理中SMSメッセージ"
+
+#: rc2c_admin.php:185
+msgid "GDPR"
+msgstr "GDPR"
+
+#: rc2c_admin.php:188
+msgid ""
+"<b>*Note:</b> Need to get consent from users in order to be GDPR compliant? "
+"No problem!<br/>RingCaptcha now has a GDPR-compliant version of the phone "
+"verification widget."
+msgstr ""
+"<b>*注意:</b> ユーザーから、GDPRに準拠した同意を取得する必要がありますか? "
+"<br/> &emsp;&emsp;&emsp;RingCaptchaは、GDPRに準拠した電話番号認証ウィジットを"
+"提供しています。"
+
+#: rc2c_admin.php:192
+msgid "Check if you need to get consent from users for GDPR compliance."
+msgstr "ユーザーからGDPRに準拠した同意を必要な場合は、チェックしてください。"
+
+#: rc2c_admin.php:196
+msgid "GDPR Consent Message"
+msgstr "GDPR 同意メッセージ"
+
+#: rc2c_admin.php:198
+msgid ""
+"I would like to receive discount updates and promotions in accordance with "
+"GDPR standards."
+msgstr ""
+"*見本: 私は、GDPRに準拠した方法で、割引やプロモーション情報を受け取ります。"
+
+#: rc2c_admin.php:203
+msgid "Troubleshooting"
+msgstr "トラブルシューティング"
+
+#: rc2c_admin.php:206
+msgid ""
+"<b>*Note:</b> Some hosting providers do not support calling HTTP requests "
+"making it unable for the plugin to verify through <br/> our API if the phone "
+"number has successfully verified. This causes a 'stuck on checkout page' "
+"problem. Check this <br/> fix to use a Javascript workaround."
+msgstr ""
+"<b>*注意:</b> いくつかのプロバイダーは HTTP リクエストを受け付けません。 \n"
+"これでは、私たちの API が電話番号認証する事ができません。決済ページから動かな"
+"くなります。<br>\n"
+"&emsp;&emsp;&emsp;この問題を解決するために、 Javascript 対応策をチェックして"
+"ください。"
+
+#: rc2c_admin.php:210
+msgid "Stuck on Checkout Fix (Javascript Workaround)"
+msgstr "決済時に動かなくなる問題を解決する。(Javascript 対応策)"
+
+#: rc2c_admin.php:219
+msgid "Send Direct SMS"
+msgstr "ダイレクトSMS送信"
+
+#: rc2c_admin.php:229
+msgid "<em style=\"color:#00960C;\">SMS has been sent to recipient</em><br/>"
+msgstr "<em style=\"color:#00960C;\">SMSは宛先に送信されました。 </em><br/>"
+
+#: rc2c_admin.php:257
+msgid ""
+"If you have problems using this plugin, you can reach us through our "
+"Intercom <a href=\"https://ringcaptcha.com\" target=\"_blank\">here</a> or "
+"send us an email at <a href=\"mailto:accounts@ringcaptcha.com"
+"\">accounts@ringcaptcha.com</a>"
+msgstr ""
+"プラグイン使用中に問題が発生しましたら, <a href=\"https://ringcaptcha.com/ja"
+"\" target=\"_blank\">こちらのweb</a>からインターコムでご連絡をお願い致しま"
+"す。 \n"
+"<br>または、こちらの<a href=\"mailto:accounts@ringcaptcha.com"
+"\">accounts@ringcaptcha.com</a>よりメールにてご連絡をお願い致します"
+
+#: rc2c_display_function.php:69 rc2c_display_function.php:70
+msgid "Email"
+msgstr "メール"
+
+#: rc2c_display_function.php:110 rc2c_display_function.php:114
+msgid ""
+"<strong>Billing Phone </strong>is a required field (please verify your phone "
+"number)."
+msgstr ""
+"<strong>電話番号</strong>は必須入力事項です。 (電話番号認証を行なってくださ"
+"い)"

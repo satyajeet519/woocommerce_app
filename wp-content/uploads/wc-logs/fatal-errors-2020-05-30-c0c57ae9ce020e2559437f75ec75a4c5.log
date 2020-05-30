@@ -1,0 +1,10 @@
+2020-05-30T01:36:18+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on string in /Applications/MAMP/htdocs/task/wp-content/plugins/woo-delivery/public/class-coderockz-woo-delivery-public.php:250
+Stack trace:
+#0 /Applications/MAMP/htdocs/task/wp-includes/class-wp-hook.php(287): Coderockz_Woo_Delivery_Public->coderockz_woo_delivery_add_custom_field('')
+#1 /Applications/MAMP/htdocs/task/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/task/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/task/wp-content/plugins/woocommerce/templates/checkout/payment.php(21): do_action('woocommerce_rev...')
+#4 /Applications/MAMP/htdocs/task/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/task/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2240): wc_get_template('checkout/paymen...', Array)
+#6 /Applications/MAMP/htdocs/task/wp-includes/class-wp-hook.php(287): wooco in /Applications/MAMP/htdocs/task/wp-content/plugins/woo-delivery/public/class-coderockz-woo-delivery-public.php on line 250
+

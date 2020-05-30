@@ -1,0 +1,36 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.main-wrap {
+	width:1000px;
+	margin:0 auto;
+	background:#CCCCCC;
+	
+	}
+.wrapper {
+	padding:10px;
+	}
+.header, .body-main {
+	padding:10px;
+	margin-bottom:10px;
+	background:#fff;
+	overflow:hidden;
+	}
+.header h1 {
+	text-align:center;
+	font-size:22px;
+	}
+h1 {
+	font-size:18px;
+	}
+p,ol, ul, li {
+	font-size:16px;
+	line-height:1.5;
+}
+ol li {
+	line-height:2;
+	}
+img	{
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
